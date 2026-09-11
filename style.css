@@ -335,3 +335,22 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+/* PROJECT BUTTONS */
+
+.project-btn {
+    display: inline-block !important;
+    margin-top: 20px !important;
+    padding: 10px 20px !important;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899) !important;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 25px !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    transition: all 0.3s ease !important;
+}
+
+.project-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
+}
